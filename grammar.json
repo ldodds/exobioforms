@@ -1,0 +1,87 @@
+{
+  "digit":["0","1","2","3","4","5","6","7","8","9"],
+  "hex": ["a", "b", "c", "d", "e", "f"],
+  "digitOrHex": ["#digit#", "#hex#"],
+
+  "number": ["#digit#","#digit##digit#", "#digit##digit##digit#"],
+  "largerNumber": ["#digit##digit#", "#digit##digit##digit#"],
+  "confidence": ["8#digit#", "9#digit#"],
+
+  "fourDigitOrHex": ["#digitOrHex##digitOrHex##digitOrHex##digitOrHex#"],
+
+  "uuid": ["#fourDigitOrHex##fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex##fourDigitOrHex##fourDigitOrHex#"],
+  "short-uuid":["#fourDigitOrHex##fourDigitOrHex#"],
+
+  "algorithm": ["orni", "vert", "phyt", "biof"],
+
+  "ecoregion": ["polar", "temperate", "dry", "tropical", "marine"],
+
+  "feathers": ["primaries", "secondaries", "coverts", "tail", "tail coverts",
+    "rectrices", "scapulars", "auriculars"],
+
+  "bird-anatomy": ["back", "rump", "breast", "tarsus", "toe", "flank", "chin",
+   "throat", "jugulum", "crown", "forehead", "lores", "neck", "malar region", "sides", "abdomen", "beak"],
+
+  "setProbe": [
+    "[probeName:ridgway][probePlanet:kepler-1649c]",
+    "[probeName:wallace][probePlanet:kepler-442b]",
+    "[probeName:darwin][probePlanet:kepler-1229b]",
+    "[probeName:acton][probePlanet:kepler-186f]",
+    "[probeName:lyell][probePlanet:kepler-62f]",
+    "[probeName:ridgway][probePlanet:kepler-1649c]",
+    "[probeName:gould][probePlanet:kepler-443b]",
+    "[probeName:bird][probePlanet:kepler-705b]"
+  ],
+
+  "drone": ["#probeName#-#number#"],
+  "installedAlgorithm": ["#drone#-#algo#-#largerNumber#"],
+
+  "survey-area": ["🌐 #probePlanet.capitalize# / #ecoregion.capitalize# ecoregion survey"],
+  "algo-confidence": ["#algo.capitalize# confidence #confidence#%"],
+
+  "prov": ["📡 +//#probePlanet#//#installedAlgorithm#//"],
+  "id": ["#short-uuid#"],
+
+  "setColour": ["[colourName:Snow white][colourCode:#f1e9cd]","[colourName:Reddish white][colourCode:#f2e7cf]","[colourName:Purplish white][colourCode:#ece6d0]","[colourName:Yellowish white][colourCode:#f2eacc]","[colourName:Orange coloured white][colourCode:#f3e9ca]","[colourName:Greenish white][colourCode:#f2ebcd]","[colourName:Skimmed milk white][colourCode:#e6e1c9]"],
+
+  "featherMarking": ["barred", "banded", "concentric", "herring bone", "undulate", "vermiculate", "rhomboid", "quadrate", "ocellate", "circular", "oval", "obovate", "ovate", "elliptical", "linear", "pyriform", "v-shaped", "u-shaped", "cruciform", "punctate"],
+
+  "featherAdjective": ["#bodyAdjective#", "downy", "fringed", "fluted"],
+  "bodyAdjective": ["shimmering", "bright", "shiny", "translucent", "glowing", "dark"],
+
+  "coloured-feather": ["#colourName# #feathers#"],
+  "coloured-bird-anatomy": ["#colourName# #bird-anatomy#"],
+
+  "orni": ["#prov##id#\n#orni-packet#\n"],
+
+  "orni-packet": ["#orni-match#\n#orni-bird#\n\n💬 #orni-comment#."],
+
+  "orni-match": ["#survey-area#\n🐦 Avian bioform confirmed. #algo-confidence#\n"],
+
+  "orni-bird": [
+    "📷 #orni-feather# and #orni-body#",
+    "📷 #orni-feather#, #orni-feather# and #orni-body#",
+    "📷 #orni-body# and #orni-body#",
+    "📷 #orni-feather# and #orni-body#"
+  ],
+
+  "orni-body": [
+    "#[#setColour#]coloured-bird-anatomy#",
+    "#[#setColour#]coloured-bird-anatomy#",
+    "#bodyAdjective.capitalize# #[#setColour#]coloured-bird-anatomy#",
+    "#bodyAdjective.capitalize# #bird-anatomy#"
+  ],
+
+  "orni-feather": [
+    "#[#setColour#]coloured-feather#",
+    "#[#setColour#]coloured-feather#",
+    "#featherAdjective.capitalize# #[#setColour#]coloured-feather#",
+    "#featherMarking.capitalize# #[#setColour#]coloured-feather#",
+    "#featherAdjective.capitalize# #feathers#"],
+
+  "orni-comment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It feeds", "It feeds", "It trills", "Its beautiful", "It hunts", "It nests", "It feeds", "It calls", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide"],
+
+
+  "debug": "#probePlanet# #uuid#",
+  "origin": "#[#setProbe#][algo:orni]orni#"
+}
