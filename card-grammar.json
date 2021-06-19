@@ -1,0 +1,40 @@
+{
+  "svgStart": ["{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#svgWidth#\" height=\"#svgHeight#\">"],
+
+  "svgEnd": ["</svg>}"],
+
+  "svgWidth": ["800"],
+  "svgHeight": ["418"],
+
+  "card-base": ["https://raw.githubusercontent.com/ldodds/exobioforms/main/card.png"],
+
+  "image": ["<image width=\"#svgWidth#\" height=\"#svgHeight#\" xlink:href=\"https://raw.githubusercontent.com/ldodds/exobioforms/main/card.png\" />"],
+
+  "twitterCard": ["#svgStart# #image# #rect1Border# #rect2Border# #rect3Border# #rect4Border# #rect5Border# #rect1# #rect2# #rect3# #rect4# #rect5# #rect1Label# #rect2Label# #rect3Label# #rect4Label# #rect5Label# #svgEnd#"],
+
+  "obj": ["<foreignObject x=\"0\" y=\"0\" width=\"#svgWidth#\" height=\"#svgHeight#\"><p xmlns=\"http://www.w3.org/1999/xhtml\" style=\"padding: 2%; width: 90%; font-size:80px; line-height:1.2; color:rgba(255, 255, 255, 1); text-align:center; 0; position: absolute; bottom: 0px; background-color: rgba(255, 255, 255, 0.5); margin:5%;\">Text</p></foreignObject>"],
+
+  "rect": ["<rect x=\"#x#\" y=\"#y#\" width=\"#w#\" height=\"#h#\" fill=\"\\##fill#\" rx=\"5\" />"],
+  "text": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"bold\" font-size=\"small\" font-family=\"sans-serif\" fill=\"\\#000000\">\\##label#</text>"],
+
+  "rect1Border": ["#[x:45][y:195][w:110][h:150][fill:#ffffff]rect#"],
+  "rect2Border": ["#[x:195][y:195][w:110][h:150][fill:#ffffff]rect#"],
+  "rect3Border": ["#[x:345][y:195][w:110][h:150][fill:#ffffff]rect#"],
+  "rect4Border": ["#[x:495][y:195][w:110][h:150][fill:#ffffff]rect#"],
+  "rect5Border": ["#[x:645][y:195][w:110][h:150][fill:#ffffff]rect#"],
+
+
+  "rect1Label": ["#[x:55][y:330][label:#bb603c]text#"],
+  "rect2Label": ["#[x:205][y:330][label:#61ac86]text#"],
+  "rect3Label": ["#[x:355][y:330][label:#e6d058]text#"],
+  "rect4Label": ["#[x:505][y:330][label:#584c77]text#"],
+  "rect5Label": ["#[x:655][y:330][label:#b74a70]text#"],
+
+  "rect1": ["#[x:50][y:200][w:100][h:100][fill:#bb603c]rect#"],
+  "rect2": ["#[x:200][y:200][w:100][h:100][fill:#61ac86]rect#"],
+  "rect3": ["#[x:350][y:200][w:100][h:100][fill:#e6d058]rect#"],
+  "rect4": ["#[x:500][y:200][w:100][h:100][fill:#584c77]rect#"],
+  "rect5": ["#[x:650][y:200][w:100][h:100][fill:#b74a70]rect#"],
+
+  "origin": ["debug #twitterCard#"]
+}
