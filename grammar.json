@@ -10,11 +10,75 @@
   "fourDigitOrHex": ["#digitOrHex##digitOrHex##digitOrHex##digitOrHex#"],
 
   "uuid": ["#fourDigitOrHex##fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex##fourDigitOrHex##fourDigitOrHex#"],
-  "short-uuid":["#fourDigitOrHex##fourDigitOrHex#"],
+
+  "setColour": ["[colourName:Snow White][colourCode:#f1e9cd]","[colourName:Reddish White][colourCode:#f2e7cf]","[colourName:Purplish White][colourCode:#ece6d0]","[colourName:Yellowish White][colourCode:#f2eacc]","[colourName:Orange coloured White][colourCode:#f3e9ca]","[colourName:Greenish White][colourCode:#f2ebcd]","[colourName:Skimmed milk White][colourCode:#e6e1c9]","[colourName:Greyish White][colourCode:#e2ddc6]","[colourName:Ash Grey][colourCode:#cbc8b7]","[colourName:Smoke Grey][colourCode:#bfbbb0]","[colourName:French Grey][colourCode:#bebeb3]","[colourName:Pearl Grey][colourCode:#b7b5ac]","[colourName:Yellowish Grey][colourCode:#bab191]","[colourName:Bluish Grey][colourCode:#9c9d9a]","[colourName:Greenish Grey][colourCode:#8a8d84]","[colourName:Blackish Grey][colourCode:#5b5c61]","[colourName:Greyish Black][colourCode:#555152]","[colourName:Bluish Black][colourCode:#413f44]","[colourName:Greenish Black][colourCode:#454445]","[colourName:Pitch or Brownish Black][colourCode:#423937]","[colourName:Reddish Black][colourCode:#433635]","[colourName:Ink Black][colourCode:#252024]","[colourName:Velvet Black][colourCode:#241f20]","[colourName:Scotch Blue][colourCode:#281f3f]","[colourName:Prussian Blue][colourCode:#1c1949]","[colourName:Indigo Blue][colourCode:#4f638d]","[colourName:China Blue][colourCode:#383867]","[colourName:Azure Blue][colourCode:#5c6b8f]","[colourName:Ultramarine Blue][colourCode:#657abb]","[colourName:Flax-Flower Blue][colourCode:#6f88af]","[colourName:Berlin Blue][colourCode:#7994b5]","[colourName:Verditter Blue][colourCode:#6fb5a8]","[colourName:Greenish Blue][colourCode:#719ba2]","[colourName:Greyish Blue][colourCode:#8aa1a6]","[colourName:Bluish Lilac Purple][colourCode:#d0d5d3]","[colourName:Bluish Purple][colourCode:#8590ae]","[colourName:Violet Purple][colourCode:#3a2f52]","[colourName:Pansy Purple][colourCode:#39334a]","[colourName:Campanula Purple][colourCode:#6c6d94]","[colourName:Imperial Purple][colourCode:#584c77]","[colourName:Auricula Purple][colourCode:#533552]","[colourName:Plum Purple][colourCode:#463759]","[colourName:Red Lilac Purple][colourCode:#bfbac0]","[colourName:Lavender Purple][colourCode:#77747f]","[colourName:Pale Blackish Purple][colourCode:#4a475c]","[colourName:Celadine Green][colourCode:#b8bfaf]","[colourName:Mountain Green][colourCode:#b2b599]","[colourName:Leek Green][colourCode:#979c84]","[colourName:Blackish Green][colourCode:#5d6161]","[colourName:Verdigris Green][colourCode:#61ac86]","[colourName:Bluish Green][colourCode:#a4b6a7]","[colourName:Apple Green][colourCode:#adba98]","[colourName:Emerald Green][colourCode:#93b778]","[colourName:Grass Green][colourCode:#7d8c55]","[colourName:Duck Green][colourCode:#33431e]","[colourName:Sap Green][colourCode:#7c8635]","[colourName:Pistachio Green][colourCode:#8e9849]","[colourName:Asparagus Green][colourCode:#c2c190]","[colourName:Olive Green][colourCode:#67765b]","[colourName:Oil Green][colourCode:#ab924b]","[colourName:Siskin Green][colourCode:#c8c76f]","[colourName:Sulphur Yellow][colourCode:#ccc050]","[colourName:Primrose Yellow][colourCode:#ebdd99]","[colourName:Wax Yellow][colourCode:#ab9649]","[colourName:Lemon Yellow][colourCode:#dbc364]","[colourName:Gamboge Yellow][colourCode:#e6d058]","[colourName:Kings Yellow][colourCode:#ead665]","[colourName:Saffron Yellow][colourCode:#d09b2c]","[colourName:Gallstone Yellow][colourCode:#a36629]","[colourName:Honey Yellow][colourCode:#a77d35]","[colourName:Straw Yellow][colourCode:#f0d696]","[colourName:Wine Yellow][colourCode:#d7c485]","[colourName:Sienna Yellow][colourCode:#f1d28c]","[colourName:Ochre Yellow][colourCode:#efcc83]","[colourName:Cream Yellow][colourCode:#f3daa7]","[colourName:Dutch Orange][colourCode:#dfa837]","[colourName:Buff Orange][colourCode:#ebbc71]","[colourName:Orpiment Orange][colourCode:#d17c3f]","[colourName:Brownish Orange][colourCode:#92462f]","[colourName:Reddish Orange][colourCode:#be7249]","[colourName:Deep Reddish Orange][colourCode:#bb603c]","[colourName:Tile Red][colourCode:#c76b4a]","[colourName:Hyacinth Red][colourCode:#a75536]","[colourName:Scarlet Red][colourCode:#b63e36]","[colourName:Vermilion Red][colourCode:#b5493a]","[colourName:Aurora Red][colourCode:#cd6d57]","[colourName:Arterial Blood Red][colourCode:#711518]","[colourName:Flesh Red][colourCode:#e9c49d]","[colourName:Rose Red][colourCode:#eedac3]","[colourName:Peach Blossom Red][colourCode:#eecfbf]","[colourName:Carmine Red][colourCode:#ce536b]","[colourName:Lake Red][colourCode:#b74a70]","[colourName:Crimson Red][colourCode:#b7757c]","[colourName:Purplish Red][colourCode:#612741]","[colourName:Cochineal Red][colourCode:#7a4848]","[colourName:Veinous Blood Red][colourCode:#3f3033]","[colourName:Brownish Purple Red][colourCode:#8d746f]","[colourName:Chocolate Red][colourCode:#4d3635]","[colourName:Brownish Red][colourCode:#6e3b31]","[colourName:Deep Orange-coloured Brown][colourCode:#864735]","[colourName:Deep Reddish Brown][colourCode:#553d3a]","[colourName:Umber Brown][colourCode:#613936]","[colourName:Chestnut Brown][colourCode:#7a4b3a]","[colourName:Yellowish Brown][colourCode:#946943]","[colourName:Wood Brown][colourCode:#c39e6d]","[colourName:Liver Brown][colourCode:#513e32]","[colourName:Hair Brown][colourCode:#8b7859]","[colourName:Broccoli Brown][colourCode:#9b856b]","[colourName:Clove Brown][colourCode:#766051]","[colourName:Blackish Brown][colourCode:#453b32]"],
+
+  "chooseColors": ["[#setColour#][col1Name:#colourName#][col1Code:#colourCode#][#setColour#][col2Name:#colourName#][col2Code:#colourCode#][#setColour#][col3Name:#colourName#][col3Code:#colourCode#][#setColour#][col4Name:#colourName#][col4Code:#colourCode#][#setColour#][col5Name:#colourName#][col5Code:#colourCode#]"],
+
+
+  "svgStart": ["{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#svgWidth#\" height=\"#svgHeight#\">"],
+  "svgEnd": ["</svg>}"],
+  "svgWidth": ["800"],
+  "svgHeight": ["418"],
+
+  "cardBase": ["https://raw.githubusercontent.com/ldodds/exobioforms/main/cards/card-#probeIndex#.png"],
+
+  "image": ["<image width=\"#svgWidth#\" height=\"#svgHeight#\" xlink:href=\"#cardBase#\" />"],
+
+  "rect": ["<rect x=\"#x#\" y=\"#y#\" width=\"#w#\" height=\"#h#\" fill=\"\\##fill#\" rx=\"5\" />"],
+
+  "text": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"\" font-size=\"small\" font-family=\"sans-serif\" fill=\"\\#000000\">\\##label#</text>"],
+  "text2": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"#weight#\" font-size=\"#size#\" font-family=\"#font#\" fill=\"\\##fill#\">#label#</text>"],
+
+  "rect1Border": ["#[x:45][y:245][w:110][h:140][fill:#ffffff]rect#"],
+  "rect2Border": ["#[x:195][y:245][w:110][h:140][fill:#ffffff]rect#"],
+  "rect3Border": ["#[x:345][y:245][w:110][h:140][fill:#ffffff]rect#"],
+  "rect4Border": ["#[x:495][y:245][w:110][h:140][fill:#ffffff]rect#"],
+  "rect5Border": ["#[x:645][y:245][w:110][h:140][fill:#ffffff]rect#"],
+
+  "rect1": ["#[x:50][y:250][w:100][h:100][fill:#col1Code#]rect#"],
+  "rect2": ["#[x:200][y:250][w:100][h:100][fill:#col2Code#]rect#"],
+  "rect3": ["#[x:350][y:250][w:100][h:100][fill:#col3Code#]rect#"],
+  "rect4": ["#[x:500][y:250][w:100][h:100][fill:#col4Code#]rect#"],
+  "rect5": ["#[x:650][y:250][w:100][h:100][fill:#col5Code#]rect#"],
+
+  "rect1Label": ["#[x:55][y:370][label:#col1Code#]text#"],
+  "rect2Label": ["#[x:205][y:370][label:#col2Code#]text#"],
+  "rect3Label": ["#[x:355][y:370][label:#col3Code#]text#"],
+  "rect4Label": ["#[x:505][y:370][label:#col4Code#]text#"],
+  "rect5Label": ["#[x:655][y:370][label:#col5Code#]text#"],
+
+ "swatchTitle":  ["#[x:45][y:220][fill:#ffffff][size:x-large][weight:bold][font:sans-serif][label:Bioform primary colours]text2#"],
+
+ "cardTitle":  ["#[x:190][y:50][fill:#ffffff][size:xx-large][weight:bold][font:sans-serif][label:#probePlanet.capitalize#]text2#"],
+ "cardDesc":  ["#[x:190][y:85][fill:#ffffff][size:x-large][weight:bold][font:sans-serif][label:#probeName.capitalize# probe]text2#"],
+ "cardLog":  ["#[x:45][y:140][fill:#ffffff][size:large][font:monospace][label:> +//#probePlanet#/#probeName#-#number#-#algo#-#largerNumber#/-]text2#"],
+ "cardLog2":  ["#[x:45][y:160][fill:#ffffff][size:large][font:monospace][label:> #surveyRegion.capitalize# ecoregion survey. Flight #number#]text2#"],
+ "cardLog3":  ["#[x:45][y:180][fill:#ffffff][size:large][font:monospace][label:> #algoBioform.capitalize# bioform confirmed. Confidence #confidence#%]text2#"],
+
+ "footer": ["#[x:580][y:405][fill:#ffffff][size:xx-small][font:monospace][label:#uuid#]text2#"],
+
+ "swatch": ["#rect1Border# #rect2Border# #rect3Border# #rect4Border# #rect5Border# #rect1# #rect2# #rect3# #rect4# #rect5# #rect1Label# #rect2Label# #rect3Label# #rect4Label# #rect5Label# #swatchTitle# "],
+
+ "twitterCard": ["#svgStart# #image# #swatch# #footer# #cardTitle# #cardDesc# #cardLog# #cardLog2# #cardLog3# #svgEnd#"],
 
   "algorithm": ["orni", "vert", "phyt", "biof"],
 
   "ecoregion": ["polar", "temperate", "dry", "tropical", "marine"],
+
+  "setProbe": [
+    "[probeName:ridgway][probePlanet:kepler-1649c][probeIndex:1]",
+    "[probeName:wallace][probePlanet:kepler-442b][probeIndex:2]",
+    "[probeName:darwin][probePlanet:kepler-1229b][probeIndex:3]",
+    "[probeName:acton][probePlanet:kepler-186f][probeIndex:4]",
+    "[probeName:lyell][probePlanet:kepler-62f][probeIndex:5]",
+    "[probeName:gould][probePlanet:kepler-443b][probeIndex:6]",
+    "[probeName:bird][probePlanet:kepler-705b][probeIndex:7]"
+  ],
+
+  "setAlgo": ["[algo:orni][algoBioform:avian]"],
+
+  "prov": ["📡 +//#probePlanet#//#probeName#-#number#-#algo#-#largerNumber#//"],
 
   "feathers": ["primaries", "secondaries", "coverts", "tail", "tail coverts",
     "rectrices", "scapulars", "auriculars"],
@@ -22,41 +86,19 @@
   "bird-anatomy": ["back", "rump", "breast", "tarsus", "toe", "flank", "chin",
    "throat", "jugulum", "crown", "forehead", "lores", "neck", "malar region", "sides", "abdomen", "beak"],
 
-  "setProbe": [
-    "[probeName:ridgway][probePlanet:kepler-1649c]",
-    "[probeName:wallace][probePlanet:kepler-442b]",
-    "[probeName:darwin][probePlanet:kepler-1229b]",
-    "[probeName:acton][probePlanet:kepler-186f]",
-    "[probeName:lyell][probePlanet:kepler-62f]",
-    "[probeName:ridgway][probePlanet:kepler-1649c]",
-    "[probeName:gould][probePlanet:kepler-443b]",
-    "[probeName:bird][probePlanet:kepler-705b]"
-  ],
-
-  "drone": ["#probeName#-#number#"],
-  "installedAlgorithm": ["#drone#-#algo#-#largerNumber#"],
-
-  "survey-area": ["🌐 #probePlanet.capitalize# / #ecoregion.capitalize# ecoregion survey"],
-  "algo-confidence": ["#algo.capitalize# confidence #confidence#%"],
-
-  "prov": ["📡 +//#probePlanet#//#installedAlgorithm#//"],
-  "id": ["#short-uuid#"],
-
-  "setColour": ["[colourName:Snow white][colourCode:#f1e9cd]","[colourName:Reddish white][colourCode:#f2e7cf]","[colourName:Purplish white][colourCode:#ece6d0]","[colourName:Yellowish white][colourCode:#f2eacc]","[colourName:Orange coloured white][colourCode:#f3e9ca]","[colourName:Greenish white][colourCode:#f2ebcd]","[colourName:Skimmed milk white][colourCode:#e6e1c9]"],
-
   "featherMarking": ["barred", "banded", "concentric", "herring bone", "undulate", "vermiculate", "rhomboid", "quadrate", "ocellate", "circular", "oval", "obovate", "ovate", "elliptical", "linear", "pyriform", "v-shaped", "u-shaped", "cruciform", "punctate"],
 
   "featherAdjective": ["#bodyAdjective#", "downy", "fringed", "fluted"],
   "bodyAdjective": ["shimmering", "bright", "shiny", "translucent", "glowing", "dark"],
 
-  "coloured-feather": ["#colourName# #feathers#"],
-  "coloured-bird-anatomy": ["#colourName# #bird-anatomy#"],
+  "coloured-feather": ["#col1Name# #feathers#", "#col2Name# #feathers#", "#col3Name# #feathers#", "#col4Name# #feathers#", "#col5Name# #feathers#"],
+  "coloured-bird-anatomy": ["#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#"],
 
-  "orni": ["#prov##id#\n#orni-packet#\n"],
+  "orni": ["📡🌐 #orni-packet#\n"],
 
-  "orni-packet": ["#orni-match#\n#orni-bird#\n\n💬 #orni-comment#."],
+  "orni-packet": ["#orni-match#\n#orni-bird#\n\n💬 #orni-comment#.\n"],
 
-  "orni-match": ["#survey-area#\n🐦 Avian bioform confirmed. #algo-confidence#\n"],
+  "orni-match": ["🐦 #probePlanet.capitalize# #algoBioform# bioform confirmed.\n"],
 
   "orni-bird": [
     "📷 #orni-feather# and #orni-body#",
@@ -66,22 +108,24 @@
   ],
 
   "orni-body": [
-    "#[#setColour#]coloured-bird-anatomy#",
-    "#[#setColour#]coloured-bird-anatomy#",
-    "#bodyAdjective.capitalize# #[#setColour#]coloured-bird-anatomy#",
+    "#coloured-bird-anatomy#",
+    "#coloured-bird-anatomy#",
+    "#bodyAdjective.capitalize# #coloured-bird-anatomy#",
     "#bodyAdjective.capitalize# #bird-anatomy#"
   ],
 
   "orni-feather": [
-    "#[#setColour#]coloured-feather#",
-    "#[#setColour#]coloured-feather#",
-    "#featherAdjective.capitalize# #[#setColour#]coloured-feather#",
-    "#featherMarking.capitalize# #[#setColour#]coloured-feather#",
+    "#coloured-feather#",
+    "#coloured-feather#",
+    "#featherAdjective.capitalize# #coloured-feather#",
+    "#featherMarking.capitalize# #coloured-feather#",
     "#featherAdjective.capitalize# #feathers#"],
 
   "orni-comment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It feeds", "It feeds", "It trills", "Its beautiful", "It hunts", "It nests", "It feeds", "It calls", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide"],
 
 
-  "debug": "#probePlanet# #uuid#",
-  "origin": "#[#setProbe#][algo:orni]orni#"
+  "debug": "",
+  "msg": ["#orni# #twitterCard#"],
+  "origin": "#chooseColors# #[#setProbe#][#setAlgo#][surveyRegion:#ecoregion#]msg#"
 }
+
