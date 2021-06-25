@@ -129,13 +129,6 @@ Body areas:
 
 Birds:
 
-Blue primaries and a red head
-Blue primaries, green secondaries and a red head
-Green breast and red tail
-Fluted blue primaries
-Fluted blue primaries with barred markings
-Blue primaries, green secondaries with banded markings
-
 Flightless
 Predatory
 Nesting

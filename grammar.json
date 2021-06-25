@@ -10,6 +10,7 @@
   "fourDigitOrHex": ["#digitOrHex##digitOrHex##digitOrHex##digitOrHex#"],
 
   "uuid": ["#fourDigitOrHex##fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex#-#fourDigitOrHex##fourDigitOrHex##fourDigitOrHex#"],
+  "shortId": ["#fourDigitOrHex##fourDigitOrHex#"],
 
   "setColour": ["[colourName:Snow White][colourCode:#f1e9cd]","[colourName:Reddish White][colourCode:#f2e7cf]","[colourName:Purplish White][colourCode:#ece6d0]","[colourName:Yellowish White][colourCode:#f2eacc]","[colourName:Orange coloured White][colourCode:#f3e9ca]","[colourName:Greenish White][colourCode:#f2ebcd]","[colourName:Skimmed milk White][colourCode:#e6e1c9]","[colourName:Greyish White][colourCode:#e2ddc6]","[colourName:Ash Grey][colourCode:#cbc8b7]","[colourName:Smoke Grey][colourCode:#bfbbb0]","[colourName:French Grey][colourCode:#bebeb3]","[colourName:Pearl Grey][colourCode:#b7b5ac]","[colourName:Yellowish Grey][colourCode:#bab191]","[colourName:Bluish Grey][colourCode:#9c9d9a]","[colourName:Greenish Grey][colourCode:#8a8d84]","[colourName:Blackish Grey][colourCode:#5b5c61]","[colourName:Greyish Black][colourCode:#555152]","[colourName:Bluish Black][colourCode:#413f44]","[colourName:Greenish Black][colourCode:#454445]","[colourName:Pitch or Brownish Black][colourCode:#423937]","[colourName:Reddish Black][colourCode:#433635]","[colourName:Ink Black][colourCode:#252024]","[colourName:Velvet Black][colourCode:#241f20]","[colourName:Scotch Blue][colourCode:#281f3f]","[colourName:Prussian Blue][colourCode:#1c1949]","[colourName:Indigo Blue][colourCode:#4f638d]","[colourName:China Blue][colourCode:#383867]","[colourName:Azure Blue][colourCode:#5c6b8f]","[colourName:Ultramarine Blue][colourCode:#657abb]","[colourName:Flax-Flower Blue][colourCode:#6f88af]","[colourName:Berlin Blue][colourCode:#7994b5]","[colourName:Verditter Blue][colourCode:#6fb5a8]","[colourName:Greenish Blue][colourCode:#719ba2]","[colourName:Greyish Blue][colourCode:#8aa1a6]","[colourName:Bluish Lilac Purple][colourCode:#d0d5d3]","[colourName:Bluish Purple][colourCode:#8590ae]","[colourName:Violet Purple][colourCode:#3a2f52]","[colourName:Pansy Purple][colourCode:#39334a]","[colourName:Campanula Purple][colourCode:#6c6d94]","[colourName:Imperial Purple][colourCode:#584c77]","[colourName:Auricula Purple][colourCode:#533552]","[colourName:Plum Purple][colourCode:#463759]","[colourName:Red Lilac Purple][colourCode:#bfbac0]","[colourName:Lavender Purple][colourCode:#77747f]","[colourName:Pale Blackish Purple][colourCode:#4a475c]","[colourName:Celadine Green][colourCode:#b8bfaf]","[colourName:Mountain Green][colourCode:#b2b599]","[colourName:Leek Green][colourCode:#979c84]","[colourName:Blackish Green][colourCode:#5d6161]","[colourName:Verdigris Green][colourCode:#61ac86]","[colourName:Bluish Green][colourCode:#a4b6a7]","[colourName:Apple Green][colourCode:#adba98]","[colourName:Emerald Green][colourCode:#93b778]","[colourName:Grass Green][colourCode:#7d8c55]","[colourName:Duck Green][colourCode:#33431e]","[colourName:Sap Green][colourCode:#7c8635]","[colourName:Pistachio Green][colourCode:#8e9849]","[colourName:Asparagus Green][colourCode:#c2c190]","[colourName:Olive Green][colourCode:#67765b]","[colourName:Oil Green][colourCode:#ab924b]","[colourName:Siskin Green][colourCode:#c8c76f]","[colourName:Sulphur Yellow][colourCode:#ccc050]","[colourName:Primrose Yellow][colourCode:#ebdd99]","[colourName:Wax Yellow][colourCode:#ab9649]","[colourName:Lemon Yellow][colourCode:#dbc364]","[colourName:Gamboge Yellow][colourCode:#e6d058]","[colourName:Kings Yellow][colourCode:#ead665]","[colourName:Saffron Yellow][colourCode:#d09b2c]","[colourName:Gallstone Yellow][colourCode:#a36629]","[colourName:Honey Yellow][colourCode:#a77d35]","[colourName:Straw Yellow][colourCode:#f0d696]","[colourName:Wine Yellow][colourCode:#d7c485]","[colourName:Sienna Yellow][colourCode:#f1d28c]","[colourName:Ochre Yellow][colourCode:#efcc83]","[colourName:Cream Yellow][colourCode:#f3daa7]","[colourName:Dutch Orange][colourCode:#dfa837]","[colourName:Buff Orange][colourCode:#ebbc71]","[colourName:Orpiment Orange][colourCode:#d17c3f]","[colourName:Brownish Orange][colourCode:#92462f]","[colourName:Reddish Orange][colourCode:#be7249]","[colourName:Deep Reddish Orange][colourCode:#bb603c]","[colourName:Tile Red][colourCode:#c76b4a]","[colourName:Hyacinth Red][colourCode:#a75536]","[colourName:Scarlet Red][colourCode:#b63e36]","[colourName:Vermilion Red][colourCode:#b5493a]","[colourName:Aurora Red][colourCode:#cd6d57]","[colourName:Arterial Blood Red][colourCode:#711518]","[colourName:Flesh Red][colourCode:#e9c49d]","[colourName:Rose Red][colourCode:#eedac3]","[colourName:Peach Blossom Red][colourCode:#eecfbf]","[colourName:Carmine Red][colourCode:#ce536b]","[colourName:Lake Red][colourCode:#b74a70]","[colourName:Crimson Red][colourCode:#b7757c]","[colourName:Purplish Red][colourCode:#612741]","[colourName:Cochineal Red][colourCode:#7a4848]","[colourName:Veinous Blood Red][colourCode:#3f3033]","[colourName:Brownish Purple Red][colourCode:#8d746f]","[colourName:Chocolate Red][colourCode:#4d3635]","[colourName:Brownish Red][colourCode:#6e3b31]","[colourName:Deep Orange-coloured Brown][colourCode:#864735]","[colourName:Deep Reddish Brown][colourCode:#553d3a]","[colourName:Umber Brown][colourCode:#613936]","[colourName:Chestnut Brown][colourCode:#7a4b3a]","[colourName:Yellowish Brown][colourCode:#946943]","[colourName:Wood Brown][colourCode:#c39e6d]","[colourName:Liver Brown][colourCode:#513e32]","[colourName:Hair Brown][colourCode:#8b7859]","[colourName:Broccoli Brown][colourCode:#9b856b]","[colourName:Clove Brown][colourCode:#766051]","[colourName:Blackish Brown][colourCode:#453b32]"],
 
@@ -53,8 +54,8 @@
  "cardTitle":  ["#[x:190][y:50][fill:#ffffff][size:xx-large][weight:bold][font:sans-serif][label:#probePlanet.capitalize#]text2#"],
  "cardDesc":  ["#[x:190][y:85][fill:#ffffff][size:x-large][weight:bold][font:sans-serif][label:#probeName.capitalize# probe]text2#"],
  "cardLog":  ["#[x:45][y:140][fill:#ffffff][size:large][font:monospace][label:> +//#probePlanet#/#probeName#-#number#-#algo#-#largerNumber#/-]text2#"],
- "cardLog2":  ["#[x:45][y:160][fill:#ffffff][size:large][font:monospace][label:> #surveyRegion.capitalize# ecoregion survey. Flight #number#]text2#"],
- "cardLog3":  ["#[x:45][y:180][fill:#ffffff][size:large][font:monospace][label:> #algoBioform.capitalize# bioform confirmed. Confidence #confidence#%]text2#"],
+ "cardLog2":  ["#[x:45][y:160][fill:#ffffff][size:large][font:monospace][label:> #surveyRegion.capitalize# ecoregion survey. Flight #shortId#]text2#"],
+ "cardLog3":  ["#[x:45][y:180][fill:#ffffff][size:large][font:monospace][label:> #algoBioform.capitalize# bioform. #algo# algo match #confidence#%]text2#"],
 
  "footer": ["#[x:580][y:405][fill:#ffffff][size:xx-small][font:monospace][label:#uuid#]text2#"],
 
@@ -76,56 +77,43 @@
     "[probeName:bird][probePlanet:kepler-705b][probeIndex:7]"
   ],
 
+  "setRegion": ["[surveyRegion:#ecoregion#]"],
+
   "setAlgo": ["[algo:orni][algoBioform:avian]"],
 
   "prov": ["📡 +//#probePlanet#//#probeName#-#number#-#algo#-#largerNumber#//"],
 
-  "feathers": ["primaries", "secondaries", "coverts", "tail", "tail coverts",
+  "feathers": ["primaries", "secondaries", "coverts", "tail coverts",
     "rectrices", "scapulars", "auriculars"],
-
-  "bird-anatomy": ["back", "rump", "breast", "tarsus", "toe", "flank", "chin",
-   "throat", "jugulum", "crown", "forehead", "lores", "neck", "malar region", "sides", "abdomen", "beak"],
 
   "featherMarking": ["barred", "banded", "concentric", "herring bone", "undulate", "vermiculate", "rhomboid", "quadrate", "ocellate", "circular", "oval", "obovate", "ovate", "elliptical", "linear", "pyriform", "v-shaped", "u-shaped", "cruciform", "punctate"],
 
+  "birdAnatomy": ["back", "rump", "breast", "tarsus", "toe", "flank", "chin",
+   "throat", "jugulum", "crown", "forehead", "lores", "neck", "malar region", "side", "abdomen", "beak"],
+
   "featherAdjective": ["#bodyAdjective#", "downy", "fringed", "fluted"],
-  "bodyAdjective": ["shimmering", "bright", "shiny", "translucent", "glowing", "dark"],
+  "bodyAdjective": ["shimmering", "bright", "shiny", "translucent", "glowing", "dark", "striking"],
 
-  "coloured-feather": ["#col1Name# #feathers#", "#col2Name# #feathers#", "#col3Name# #feathers#", "#col4Name# #feathers#", "#col5Name# #feathers#"],
-  "coloured-bird-anatomy": ["#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#", "#col1Name# #bird-anatomy#"],
+  "orni": ["#orniMatch#\n#orniBird#\n\n💬 #orniComment#.\n\n"],
 
-  "orni": ["📡🌐 #orni-packet#\n"],
+  "orniMatch": ["🐦 #algoBioform.capitalize# bioform confirmed on #probePlanet.capitalize#.\n"],
 
-  "orni-packet": ["#orni-match#\n#orni-bird#\n\n💬 #orni-comment#.\n"],
-
-  "orni-match": ["🐦 #probePlanet.capitalize# #algoBioform# bioform confirmed.\n"],
-
-  "orni-bird": [
-    "📷 #orni-feather# and #orni-body#",
-    "📷 #orni-feather#, #orni-feather# and #orni-body#",
-    "📷 #orni-body# and #orni-body#",
-    "📷 #orni-feather# and #orni-body#"
+  "orniBird": [
+    "#col3Name# main feathers, with patches of #featherMarking# across the #birdAnatomy#. Coloured highlights in the #birdAnatomy#",
+    "📷 #col1Name# and #col5Name# display colours on the #birdAnatomy#, with #col3Name# #feathers#",
+    "📷 #bodyAdjective #birdAnatomy# with #col1Name# and #col4Name# feathers. Muted colours on the rest of the body",
+    "📷 #col1Name#, #col2Name# and #col3Name# #feathers#, with #col4Name# #birdAnatomy# and a #col5Name# #birdAnatomy#",
+    "📷 #col1Name# and #col2Name# #feathers#, #col3Name# #feathers# and a #col4Name# and #col5Name# #birdAnatomy#",
+    "📷 #col1Name# #feathers#, #col2Name# and #col3Name# #featherAdjective# #feathers#, with a #col4Name# #birdAnatomy# and a #col5Name# #birdAnatomy#",
+    "📷 Various coloured feathers with a #bodyAdjective# #col5Name# #birdAnatomy#",
+    "📷 #col1Name#, #col2Name#, #col3Name# #birdAnatomy# feathers. #featherMarking.capitalize# markings in other colours",
+    "📷 #bodyAdjective.capitalize# #col1Name# #feathers#. Subtle shades of other colours",
+    "📷 #col1Name#, #col2Name# and #col4Name# camouflage colours, with #featherMarking# #feathers#"
   ],
 
-  "orni-body": [
-    "#coloured-bird-anatomy#",
-    "#coloured-bird-anatomy#",
-    "#bodyAdjective.capitalize# #coloured-bird-anatomy#",
-    "#bodyAdjective.capitalize# #bird-anatomy#"
-  ],
-
-  "orni-feather": [
-    "#coloured-feather#",
-    "#coloured-feather#",
-    "#featherAdjective.capitalize# #coloured-feather#",
-    "#featherMarking.capitalize# #coloured-feather#",
-    "#featherAdjective.capitalize# #feathers#"],
-
-  "orni-comment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It feeds", "It feeds", "It trills", "Its beautiful", "It hunts", "It nests", "It feeds", "It calls", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide"],
-
+  "orniComment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It calls", "It feeds", "It feeds", "It feeds", "It trills", "It's beautiful", "It hunts", "It nests", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide", "It broods", "An adept tool user", "They craft", "A night feeder", "A predator", "They scavenge", "The follow, closely"],
 
   "debug": "",
   "msg": ["#orni# #twitterCard#"],
-  "origin": "#chooseColors# #[#setProbe#][#setAlgo#][surveyRegion:#ecoregion#]msg#"
+  "origin": "#chooseColors# #[#setProbe#][#setAlgo#][#setRegion#]msg#"
 }
-

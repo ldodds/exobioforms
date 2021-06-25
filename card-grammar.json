@@ -1,8 +1,6 @@
 {
   "svgStart": ["{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#svgWidth#\" height=\"#svgHeight#\">"],
-
   "svgEnd": ["</svg>}"],
-
   "svgWidth": ["800"],
   "svgHeight": ["418"],
 
@@ -12,8 +10,8 @@
 
   "rect": ["<rect x=\"#x#\" y=\"#y#\" width=\"#w#\" height=\"#h#\" fill=\"\\##fill#\" rx=\"5\" />"],
 
-  "text": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"bold\" font-size=\"small\" font-family=\"sans-serif\" fill=\"\\#000000\">\\##label#</text>"],
-  "text2": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"bold\" font-size=\"small\" font-family=\"sans-serif\" fill=\"\\#000000\">#label#</text>"],
+  "text": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"\" font-size=\"small\" font-family=\"sans-serif\" fill=\"\\#000000\">\\##label#</text>"],
+  "text2": ["<text x=\"#x#\" y=\"#y#\" font-weight=\"#weight#\" font-size=\"#size#\" font-family=\"#font#\" fill=\"\\##fill#\">#label#</text>"],
 
   "rect1Border": ["#[x:45][y:245][w:110][h:140][fill:#ffffff]rect#"],
   "rect2Border": ["#[x:195][y:245][w:110][h:140][fill:#ffffff]rect#"],
@@ -33,9 +31,19 @@
   "rect4Label": ["#[x:505][y:370][label:#584c77]text#"],
   "rect5Label": ["#[x:655][y:370][label:#b74a70]text#"],
 
-  "swatch": ["#rect1Border# #rect2Border# #rect3Border# #rect4Border# #rect5Border# #rect1# #rect2# #rect3# #rect4# #rect5# #rect1Label# #rect2Label# #rect3Label# #rect4Label# #rect5Label#"],
+ "swatchTitle":  ["#[x:45][y:220][fill:#ffffff][size:x-large][weight:bold][font:sans-serif][label:Bioform primary colours]text2#"],
 
-  "twitterCard": ["#svgStart# #image# #swatch# #svgEnd#"],
+ "cardTitle":  ["#[x:190][y:50][fill:#ffffff][size:xx-large][weight:bold][font:sans-serif][label:#probePlanet#]text2#"],
+ "cardDesc":  ["#[x:190][y:85][fill:#ffffff][size:x-large][weight:bold][font:sans-serif][label:#probeName.capitalize# probe]text2#"],
+ "cardLog":  ["#[x:45][y:140][fill:#ffffff][size:large][font:monospace][label:> +//#probePlanet#/#probeName#-44-#algo#-88/-]text2#"],
+ "cardLog2":  ["#[x:45][y:160][fill:#ffffff][size:large][font:monospace][label:> #surveyRegion.capitalize# ecoregion survey. Flight 54]text2#"],
+ "cardLog3":  ["#[x:45][y:180][fill:#ffffff][size:large][font:monospace][label:> #algoBioform.capitalize# bioform confirmed. Confidence 89%]text2#"],
 
-  "origin": ["debug #twitterCard#"]
+ "footer": ["#[x:580][y:405][fill:#ffffff][size:xx-small][font:monospace][label:dc7ba9fc-b04f-40f4-a5d2-55bfc475784e]text2#"],
+
+ "swatch": ["#rect1Border# #rect2Border# #rect3Border# #rect4Border# #rect5Border# #rect1# #rect2# #rect3# #rect4# #rect5# #rect1Label# #rect2Label# #rect3Label# #rect4Label# #rect5Label# #swatchTitle# "],
+
+ "twitterCard": ["#svgStart# #image# #swatch# #footer# #cardTitle# #cardDesc# #cardLog# #cardLog2# #cardLog3# #svgEnd#"],
+
+  "origin": ["debug #[probeName:ridgway][probePlanet:Kepler 1649c][algo:orni][algoBioform:avian][surveyRegion:temperate]twitterCard#"]
 }
