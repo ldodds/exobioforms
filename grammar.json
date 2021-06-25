@@ -115,5 +115,5 @@
 
   "debug": "",
   "msg": ["#orni# #twitterCard#"],
-  "origin": "#chooseColors# #[#setProbe#][#setAlgo#][#setRegion#]msg#"
+  "origin": "#chooseColors# #setProbe# #setRegion# #setAlgo# #msg#"
 }
