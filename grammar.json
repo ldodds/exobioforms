@@ -111,7 +111,7 @@
     "📷 #col1Name#, #col2Name# and #col4Name# camouflage colours, with #featherMarking# #feathers#"
   ],
 
-  "orniComment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It calls", "It feeds", "It feeds", "It feeds", "It trills", "It's beautiful", "It hunts", "It nests", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide", "It broods", "An adept tool user", "They craft", "A night feeder", "A predator", "They scavenge", "The follow, closely"],
+  "orniComment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It calls", "It feeds", "It feeds", "It feeds its young", "It trills", "It's beautiful", "It hunts", "It nests", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide", "It broods", "An adept tool user", "They craft", "A night feeder", "A predator", "They scavenge", "The follow, closely", "It approaches", "They show curiosity", "They gather", "It retreats", "It displays", "They groom each other", "They retreat to the shadows", "They swoop", "They perch amongst curious bowers"],
 
   "debug": "",
   "msg": ["#orni# #twitterCard#"],
