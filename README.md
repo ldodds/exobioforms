@@ -134,3 +134,6 @@ Predatory
 Nesting
 Scavenger
 Omnivorous
+
+Red, green and blue primaries, yellow breast and black head
+Red primaries, green and blue breast, white throat and black head
