@@ -42,7 +42,18 @@
 
   "orni": ["🐦 #algoMatch#\n#orniBioform#\n\n💬 #orniObservation#.\n\n"],
 
+  "phytBioform": ["phytBioformTODO"],
+  "phytComment": ["phytCommentTODO"],
+
+  "phyt": ["🌼 #algoMatch#\n#phytBioform#\n\n💬 #phytObservation#.\n\n"],
+
+  "vertBioform": ["vertBioformTODO"],
+  "vertComment": ["vertCommentTODO"],
+  "vert": ["🐂 #algoMatch#\n#vertBioform#\n\n💬 #vertObservation#.\n\n"],
+
   "algoMatch": ["#algoBioform.capitalize# bioform confirmed on #probePlanet.capitalize#.\n"],
+
+  "algorithm": ["orni", "vert", "phyt", "biof"],
 
   "rect": ["<rect x=\"#x#\" y=\"#y#\" width=\"#w#\" height=\"#h#\" fill=\"\\##fill#\" rx=\"5\" />"],
 
@@ -97,8 +108,6 @@
 
   "chooseColors": ["[#setColour#][col1Name:#colourName#][col1Code:#colourCode#][#setColour#][col2Name:#colourName#][col2Code:#colourCode#][#setColour#][col3Name:#colourName#][col3Code:#colourCode#][#setColour#][col4Name:#colourName#][col4Code:#colourCode#][#setColour#][col5Name:#colourName#][col5Code:#colourCode#]"],
 
-  "algorithm": ["orni", "vert", "phyt", "biof"],
-
   "ecoregion": ["polar", "temperate", "dry", "tropical", "marine"],
 
   "setRegionRidgway": ["[surveyRegion:#ecoregion#]"],
@@ -118,25 +127,25 @@
   "chooseColoursBird": ["#chooseColors#"],
 
   "probeMessageRidgway": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageWallace": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageDarwin": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageActon": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageLyell": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageGould": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
   "probeMessageBird": [
-    "[algo:orni][algoBioform:avian] #orni#"
+    "[algo:orni][algoBioform:avian] #phyt#"
   ],
 
   "probe": [
