@@ -16,7 +16,6 @@
 
   "chooseColors": ["[#setColour#][col1Name:#colourName#][col1Code:#colourCode#][#setColour#][col2Name:#colourName#][col2Code:#colourCode#][#setColour#][col3Name:#colourName#][col3Code:#colourCode#][#setColour#][col4Name:#colourName#][col4Code:#colourCode#][#setColour#][col5Name:#colourName#][col5Code:#colourCode#]"],
 
-
   "svgStart": ["{svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"#svgWidth#\" height=\"#svgHeight#\">"],
   "svgEnd": ["</svg>}"],
   "svgWidth": ["800"],
@@ -81,8 +80,6 @@
 
   "setAlgo": ["[algo:orni][algoBioform:avian]"],
 
-  "prov": ["📡 +//#probePlanet#//#probeName#-#number#-#algo#-#largerNumber#//"],
-
   "feathers": ["primaries", "secondaries", "coverts", "tail coverts",
     "rectrices", "scapulars", "auriculars"],
 
@@ -94,14 +91,10 @@
   "featherAdjective": ["#bodyAdjective#", "downy", "fringed", "fluted"],
   "bodyAdjective": ["shimmering", "bright", "shiny", "translucent", "glowing", "dark", "striking"],
 
-  "orni": ["#orniMatch#\n#orniBird#\n\n💬 #orniComment#.\n\n"],
-
-  "orniMatch": ["🐦 #algoBioform.capitalize# bioform confirmed on #probePlanet.capitalize#.\n"],
-
   "orniBird": [
     "#col3Name# main feathers, with patches of #featherMarking# across the #birdAnatomy#. Coloured highlights in the #birdAnatomy#",
     "📷 #col1Name# and #col5Name# display colours on the #birdAnatomy#, with #col3Name# #feathers#",
-    "📷 #bodyAdjective #birdAnatomy# with #col1Name# and #col4Name# feathers. Muted colours on the rest of the body",
+    "📷 #bodyAdjective# #birdAnatomy# with #col1Name# and #col4Name# feathers. Muted colours on the rest of the body",
     "📷 #col1Name#, #col2Name# and #col3Name# #feathers#, with #col4Name# #birdAnatomy# and a #col5Name# #birdAnatomy#",
     "📷 #col1Name# and #col2Name# #feathers#, #col3Name# #feathers# and a #col4Name# and #col5Name# #birdAnatomy#",
     "📷 #col1Name# #feathers#, #col2Name# and #col3Name# #featherAdjective# #feathers#, with a #col4Name# #birdAnatomy# and a #col5Name# #birdAnatomy#",
@@ -111,7 +104,11 @@
     "📷 #col1Name#, #col2Name# and #col4Name# camouflage colours, with #featherMarking# #feathers#"
   ],
 
-  "orniComment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It calls", "It feeds", "It feeds", "It feeds its young", "It trills", "It's beautiful", "It hunts", "It nests", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide", "It broods", "An adept tool user", "They craft", "A night feeder", "A predator", "They scavenge", "The follow, closely", "It approaches", "They show curiosity", "They gather", "It retreats", "It displays", "They groom each other", "They retreat to the shadows", "They swoop", "They perch amongst curious bowers"],
+  "orniComment": ["It flies","It flies","It flies","It flies","It flies","It flies","It calls", "It calls", "It calls", "It calls", "It feeds", "It feeds", "It feeds its young", "It trills", "It's beautiful", "It hunts", "It nests", "It hides", "It's curious", "It's alarmed", "They flock", "It forages", "It hums", "It burrows", "It swoops", "It sleeps", "It builds", "They gather", "They watch", "It watches", "Flightless, it walks", "They soar", "They hunt", "They chatter", "They murmur", "It is suspicious", "They are wary", "They hide", "It broods", "An adept tool user", "They craft", "A night feeder", "A predator", "They scavenge", "They follow, closely", "It approaches", "They show curiosity", "They gather", "It retreats", "It displays", "They groom each other", "They retreat to the shadows", "They swoop", "They perch amongst the bowers"],
+
+  "orniMatch": ["🐦 #algoBioform.capitalize# bioform confirmed on #probePlanet.capitalize#.\n"],
+
+  "orni": ["#orniMatch#\n#orniBird#\n\n💬 #orniComment#.\n\n"],
 
   "debug": "",
   "msg": ["#orni# #twitterCard#"],
