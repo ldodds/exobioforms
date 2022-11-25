@@ -39,23 +39,19 @@
     .nav-masthead .nav-link {
       padding: .25rem 0;
       font-weight: 700;
-      color: rgba(255, 255, 255, .5);
+      color: #fff;
       background-color: transparent;
       border-bottom: .25rem solid transparent;
     }
 
     .nav-masthead .nav-link:hover,
     .nav-masthead .nav-link:focus {
-      border-bottom-color: rgba(255, 255, 255, .25);
+      color: #fff;
+      border-bottom-color: #fff;
     }
 
     .nav-masthead .nav-link+.nav-link {
       margin-left: 1rem;
-    }
-
-    .nav-masthead .active {
-      color: #fff;
-      border-bottom-color: #fff;
     }
 
     li::marker {
@@ -90,15 +86,17 @@
           <a class="nav-link" href="#facts">Key Facts</a>
           <a class="nav-link active" aria-current="page" href="#ai">Mission AI</a>
           <a class="nav-link" href="#surveys">Surveys</a>
+          <a class="nav-link" href="#drones">Drones</a>
+          <a class="nav-link" href="#algos">Algos</a>
         </nav>
       </div>
     </div>
-    <div class="container px-4 py-5">
+    <div class="container px-4 py-5 mt-4">
       <h1 class="display-5 pt-5 fw-bold text-white">Kepler Exobioform Missions</h1>
       <div class="row align-items-center g-5 py-5">
         <div class="col-lg-6">
-          <h2 class="fs-1 display-5 mb-4 text-white">Recording the <span class="fw-bold" style="color: #7c8635;">colours</span> of <span class="fw-bold" style="color: #dfa837;">life</span> across the galaxy</h2>
-          <a type="button" class="btn btn-outline-light btn-lg px-4" href="https://twitter.com/exobioforms"><i class="fab fa-twitter"></i> Follow</a>
+          <h2 class="fs-1 display-5 mb-4 text-white">Recording the <span class="fw-bold" style="color: #dfa837;">colours</span> of <span class="fw-bold" style="color: #228b02;">life</span> across the galaxy</h2>
+          <a type="button" class="btn btn-outline-light btn-lg px-4" href="https://twitter.com/exobioforms"><i class="fab fa-mastodon"></i> Follow</a>
         </div>
       </div>
     </div>
@@ -127,12 +125,12 @@
             </tr>
             <tr>
               <th>In-system deployments</th>
-              <td>18th June 2021</td>
+              <td>1st January 2023</td>
             </tr>
           </tbody>
         </table>
         <p class="fs-5">Autonomous probes each hosting a Mission Personality&#8482;
-          coordinate a drone survey of bioforms on seven of the Kepler planets</p>
+          coordinating a drone survey of bioforms on seven of the Kepler planets</p>
       </div>
     </div>
   </div>
@@ -142,9 +140,9 @@
       <h1 class="display-5 text-center fw-bold text-white pb-5">Five things to know</h1>
       <div class="col-lg-6 mx-auto text-white">
         <ol style="font-size: 1.5rem;">
-          <li>Simultaneously surveys are running across seven exoplanets</li>
-          <li>Trained alongside human naturalists, the onboard AIs directs all operations</li>
-          <li>Survey drones are loaded with four specialised image recognition algorithms</li>
+          <li>Simultaneous surveys are running across seven exoplanets</li>
+          <li>Trained alongside human naturalists the onboard AIs direct all local operations</li>
+          <li>Survey drones are loaded with one of four specialised recognition algorithms</li>
           <li>Bandwidth is low. Early data only includes bioform categories, colouration and behavioural notes</li>
           <li>Colour can help us infer a great deal about a ecosystem</li>
         </ol>
@@ -154,18 +152,17 @@
 
   <div class="px-4 py-5 bg-white" id="ai">
     <div class="">
-      <h1 class="display-5 fw-bold pb-5 text-center" style="color: #dfa837;">Meet the Mission AIs</h1>
+      <h1 class="display-5 fw-bold pb-5 text-center" style="color: #dfa837;">Meet the Kepler Mission AIs</h1>
       <div class="col-lg-6 mx-auto">
         <p class="fs-5 mb-4 text-secondary">
           Exoplanet exploration requires the use of AI to extend our reach further into the galaxy.
         </p>
         <p class="fs-5 mb-4 text-secondary">
           The Mission Personality&#8482; programme has developed AI capable of more than just
-          operation of mission payloads and systems. Trained alongside human specialists, they have the capacity
-          to interpret data and telemetry to locally direct operations.
+          the operation of mission payloads and systems. They have the capacity to interpret data and telemetry to locally direct operations.
         </p>
         <p class="fs-5 mb-4 text-secondary">
-          The Kepler Exobioform Missions are using seven bespoke AIs. Trained to have the curiosity, care and
+          The Kepler Exobioform Missions are using seven bespoke AIs. Trained alongside human specialists, they have the curiosity, care and
           attention to detail of a human naturalist.
         </p>
         <p class="fs-5 mb-4 text-secondary">The AIs are individually named after famous naturalists, biologists and explorers:
@@ -232,18 +229,18 @@
             </tbody>
           </table>
         </div>
-        <p class="text-white"><small>Probes have a payload of 100 drones and supporting on-planet deployment and maintenance systems. On reaching orbit, probes will also deploy a supporting cubesat network for planetary observation and connectivity.
-            At timed intervals probes will launch a "data return mission", using a limited supply of rockets. These will carry high-definition copies of all data back to earth. An interplanetary <a
+        <p class="text-white"><small>Probes have a payload of 100 drones and supporting planetary deployment and maintenance systems. On reaching orbit, probes will also deploy a supporting cubesat network for planetary observation and connectivity.
+            At timed intervals probes will launch a "data return mission" using a limited supply of rockets. These will carry high-definition copies of all data back to earth. An interplanetary <a
               href="https://en.wikipedia.org/wiki/Sneakernet">sneakernet</a>.</small></p>
       </div>
     </div>
   </div>
 
-  <div class="container px-4 pt-5 bg-white">
+  <div id="drones" class="container px-4 pt-5 bg-white">
     <div class="row align-items-center g-5">
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-5">Bioform Survey Drones</h1>
-        <p class="fs-5 mb-4">Each survey drone is running one of four different image recognition algorithms designed to
+        <p class="fs-5 mb-4">Each survey drone is running one of four different bioform recognition algorithms designed to
           photograph, document and observe bioforms as they are identified.</p>
         <p class="fs-5 mb-4">Data on bioform type, colouration and behaviours will be transmitted immediately by the Mission Personality.</p>
         <p class="fs-5">Imagery and detailed telemetry will arrive over many years.</p>
@@ -255,7 +252,7 @@
     </div>
   </div>
 
-  <div class="px-4 bg-white" id="algos">
+  <div id="algos" class="px-4 bg-white" id="algos">
     <div class="py-5">
       <h1 class="display-5 fw-bold text-center">The Algorithms</h1>
       <div class="col-lg-6 mx-auto">
@@ -285,10 +282,10 @@
             </div>
           </div>
         </div>
-        <p class="fs-5">Three image recognition and classification algorithms have been designed to
-          describe and observe three main categories of bioforms: vertebrates, avians and plant life.</p>
+        <p class="fs-5">Three of the bioform recognition algorithms have been designed to
+          describe and observe three important categories of life: vertebrates, avians and plant life.</p>
         <p class="fs-5">The algorithms have been trained on real specimens,
-        archeological replicas and hypothetical forms created through computer-aided evolution.</p>
+        archeological replicas and hypothetical forms created through computer-aided evolution and image generation algorithms.</p>
         <p class="fs-5">The fourth algorithm is an experimental payload. It sifts the failed results of the
           other algorithms, attempting to find and identify new forms of life. Literally seeing the gaps between the
         known and the unknown.</p>
@@ -299,12 +296,11 @@
 
   <div class="text-secondary px-4 py-5 text-center" style="background-color: #333333;">
     <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Footer?</h1>
+      <h1 class="display-5 fw-bold text-white">Stay in touch</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Footer links</p>
+        <p class="fs-5 mb-4">Follow us for mission updates</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+          <button class="btn btn-outline-light btn-lg px-4 " href="https://twitter.com/exobioforms"><i class="fab fa-mastodon"></i> Follow</button>
         </div>
       </div>
     </div>
